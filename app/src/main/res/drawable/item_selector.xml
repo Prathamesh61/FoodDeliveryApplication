@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item android:state_pressed="true" android:state_activated="true" android:drawable="@color/design_default_color_on_primary"/>
+    <item android:state_activated="true" android:drawable="@color/teal_700"/>
+    <item android:state_enabled="true" android:drawable="@android:color/transparent"/>
+    <item android:drawable="@android:color/holo_orange_light"/>
+
+</selector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id='@+id/logo'
+        android:layout_width='190sp'
+        android:layout_height='190sp'
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background='@drawable/logo'
+        android:contentDescription='@string/app_name'
+        android:padding='5sp'
+        android:scaleType='centerCrop'
+        android:src="@drawable/pnglogo"
+        android:visibility='visible' />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="133dp"
+        android:layout_below="@id/logo"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="@string/food_for_everyone"
+        android:textColor="#FA4A0C"
+        android:textSize="45sp" />
+
+
+    <!--<Button
+        android:id="@+id/getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_back_main"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FA4A0C"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />-->
+
+</RelativeLayout>

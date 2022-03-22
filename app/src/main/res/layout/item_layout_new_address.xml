@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addressRelative"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/ivBackArrow"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+    <TextView
+        android:id="@+id/tvAddNewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ivBackArrow"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Add New"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="362dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/tvAddNewText"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_width="362dp"
+        android:layout_height="44dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/etName"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Mobile Number" />
+
+    <EditText
+        android:id="@+id/etPincode"
+        android:layout_width="362dp"
+        android:layout_height="44dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/etMobileNumber"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Pincode"
+        android:inputType="textPersonName"
+        android:maxLength="6" />
+
+    <EditText
+        android:id="@+id/etHouseNumber"
+        android:layout_width="362dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_below="@id/etPincode"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="House No. Apartment Name"
+        />
+
+    <EditText
+        android:id="@+id/etLocality"
+        android:layout_width="362dp"
+        android:layout_height="44dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/etHouseNumber"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Road Area,Locality"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvLandmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLocality"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="+ Add Nearby Shop/Landmark"
+        android:textColor="@color/official" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLandmark"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Address Type"
+        android:fontFamily="@font/fredoka_one"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_below="@id/textView3"
+        android:orientation="horizontal"
+        android:id="@+id/rbIsHome">
+
+        <RadioButton
+            android:id="@+id/switchHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/switchOffice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/switchHome"
+            android:text="Office"
+            android:textColor="@color/black" />
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvDefaultAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set as Default Address"
+        android:layout_below="@id/rbIsHome"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <Switch
+        android:id="@+id/switchDefaultAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbIsHome"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="@color/white"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContinueAddNew"
+        android:layout_width="377dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        app:cardCornerRadius="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Continue"
+            android:id="@+id/btnConitnue"
+            android:textAllCaps="false"
+            android:background="@drawable/button_back_with_color"
+            android:fontFamily="@font/fredoka_one"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

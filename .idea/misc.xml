@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable-v24/Button_Background.xml" value="0.290625" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/account.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/bg_categories.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/button_back.xml" value="0.1515" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/button_back2.xml" value="0.15989583333333332" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/button_back_main.xml" value="0.290625" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/button_back_with_color.xml" value="0.145" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/button_background.xml" value="0.15989583333333332" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/circle_image.xml" value="0.1565" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/fair_background.xml" value="0.1515" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_favorite_filled_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_restaurant_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.137" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1345" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_baseline_widgets_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_outline_shopping_cart_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_round_fastfood_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/ic_sharp_history_24.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/logo.xml" value="0.145" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/rating_view.xml" value="0.1965" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/round_corner.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/round_corner_stroke.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/round_image.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/selector.xml" value="0.218" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/drawable/shape.xml" value="0.1775" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.17637215528781794" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout-w936dp/activity_login.xml" value="0.205859375" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_address.xml" value="0.2502492522432702" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_cart.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_categories.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_login.xml" value="0.2807731434384537" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_login2.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_main_menu_screen.xml" value="0.30045610034207526" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_my_orders.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/activity_sub_category.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/category_item_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_category.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_category_.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_homw_style.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_my_orders.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_product_view_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_sign_in.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_sign_up.xml" value="0.31681243926141883" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/fragment_sub_category.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/item_layout_address.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/item_layout_cart_items.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/item_layout_category.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/item_layout_new_address.xml" value="0.264" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/item_layout_subcategory.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/item_selector.xml" value="0.22592592592592592" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/logo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/seach_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/slider_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/layout/test.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Android/app/src/main/res/menu/layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/activity_main_menu_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/activity_sub_category.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/example_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/fragment_category.xml" value="0.22592592592592592" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/fragment_my_orders.xml" value="0.264" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/fragment_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/fragment_sign_in.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/fragment_sign_up.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/fragment_sub_category.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/item_layout_category.xml" value="0.27447916666666666" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/item_layout_my_orders.xml" value="0.264" />
+        <entry key="..\:/Masai School/Food Delivery App With Shared Preference/app/src/main/res/layout/item_layout_subcategory.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
