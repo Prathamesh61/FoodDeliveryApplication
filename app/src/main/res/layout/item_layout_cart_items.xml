@@ -16,103 +16,105 @@
 
             <ImageView
                 android:id="@+id/ivFoodTypeIndicator"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/ic_baseline_shopping_bag_24" />
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/noodles_image" />
 
             <TextView
                 android:id="@+id/tvFoodItemName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="5dp"
-
                 android:layout_toRightOf="@id/ivFoodTypeIndicator"
                 android:text="Chicken Soup"
                 android:textColor="@color/black"
-                android:textSize="18dp" />
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/tvFoodItemDesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvFoodItemName"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/ivFoodTypeIndicator"
                 android:text="Chicken Soup"
-                android:textSize="13dp" />
+                android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/tvFoodItemPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvFoodItemDesc"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toRightOf="@id/ivFoodTypeIndicator"
                 android:text="₹400"
                 android:textColor="@color/black"
                 android:textSize="15dp" />
 
-            <LinearLayout
-                android:id="@+id/linearLayoutPV"
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="3dp"
-                android:background="@drawable/round_corner_stroke"
-                android:orientation="horizontal"
-                android:paddingHorizontal="5dp"
-                android:weightSum="3">
+                android:layout_centerVertical="true">
 
-                <ImageView
-                    android:id="@+id/ivRemoveItem"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:src="@drawable/ic_baseline_remove_24" />
-
-                <TextView
-                    android:id="@+id/tvItemCount"
+                <LinearLayout
+                    android:id="@+id/linearLayoutPV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:paddingHorizontal="10dp"
-                    android:text="1"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/round_corner_stroke"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="5dp"
+                    android:weightSum="3">
 
-                <ImageView
-                    android:id="@+id/ivAddItem"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:src="@drawable/ic_baseline_add_24" />
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/ivRemoveItem"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_remove_24" />
 
-            <TextView
-                android:id="@+id/tvTotalAfterIncrement"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayoutPV"
-                android:layout_alignParentEnd="true"
-                android:layout_centerInParent="true"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="10dp"
-                android:text="₹400"
-                android:textColor="@color/black"
-                android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/tvItemCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:paddingHorizontal="10dp"
+                        android:text="1"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/ivAddItem"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_add_24" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvTotalAfterIncrement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linearLayoutPV"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="45dp"
+                    android:text="₹400"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </RelativeLayout>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
